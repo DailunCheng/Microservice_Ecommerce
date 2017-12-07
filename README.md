@@ -10,8 +10,6 @@ This is their documentation: https://microservices-demo.github.io/docs/
 
 This is their application design and figure: https://github.com/microservices-demo/microservices-demo/blob/master/internal-docs/design.md
 
-![Architecture diagram](https://github.com/microservices-demo/microservices-demo.github.io/blob/HEAD/assets/Architecture.png "Architecture")
-
 This is their quickstart guide if you want to feel their original application: https://microservices-demo.github.io/docs/quickstart.html
 
 
