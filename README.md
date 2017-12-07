@@ -119,7 +119,7 @@ View cluster IP address:
 curl ifconfig.me
 ```
 
-View cluster information:
+View cluster hardware information:
 ```
 lscpu
 ```
