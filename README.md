@@ -12,6 +12,8 @@ This is their application design and figure: https://github.com/microservices-de
 
 This is their quickstart guide if you want to feel their original application: https://microservices-demo.github.io/docs/quickstart.html
 
+This is their Slack discussion board if you have questions about any implementation detail of Sock Shop: https://weave-community.slack.com/messages/C2NQUAUHE/details/
+
 
 ## Configuration Detail
 
