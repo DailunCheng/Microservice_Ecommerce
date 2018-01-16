@@ -67,6 +67,7 @@ hooks.beforeEach((transaction, done) => {
             INSERT INTO sock VALUES (\"3395a43e-2d88-40de-b95f-e00e1502085b\", \"Colourful\", \"proident occaecat irure et excepteur labore minim nisi amet irure\",  18, 438, \"/catalogue/images/colourful_socks.jpg\", \"/catalogue/images/colourful_socks.jpg\");\
             INSERT INTO sock VALUES (\"837ab141-399e-4c1f-9abc-bace40296bac\", \"Cat socks\", \"consequat amet cupidatat minim laborum tempor elit ex consequat in\",  15, 175, \"/catalogue/images/catsocks.jpg\", \"/catalogue/images/catsocks2.jpg\");\
             \
+            INSERT INTO sock VALUES ("837ab141-399e-4c1f-9abc-bace40296baf", "trial", "test test!",  15, 175, "/catalogue/images/trial.jpg", "/catalogue/images/trial2.jpg");
             INSERT INTO tag (name) VALUES (\"brown\");\
             INSERT INTO tag (name) VALUES (\"geek\");\
             INSERT INTO tag (name) VALUES (\"formal\");\
@@ -101,6 +102,7 @@ hooks.beforeEach((transaction, done) => {
             INSERT INTO sock_tag VALUES (\"837ab141-399e-4c1f-9abc-bace40296bac\", \"1\");\
             INSERT INTO sock_tag VALUES (\"837ab141-399e-4c1f-9abc-bace40296bac\", \"11\");\
             INSERT INTO sock_tag VALUES (\"837ab141-399e-4c1f-9abc-bace40296bac\", \"3\");\
+            INSERT INTO sock_tag VALUES (\"837ab141-399e-4c1f-9abc-bace40296baf\", \"1\");\
             \
    ", (e, r) => {
        if (e) {
